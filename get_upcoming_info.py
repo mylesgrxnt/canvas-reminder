@@ -88,7 +88,7 @@ def remind_me():
     msg += (each + "\n")
   msg +=  "\nHave a Good Day!\n-Schedule Reminder"
   print(msg)
-  # send_message(f"Reminders for {current_date.month}/{current_date.day} and {current_date.month}/{current_date.day+1}",msg)
+  send_message(f"Reminders for {current_date.month}/{current_date.day} and {current_date.month}/{current_date.day+1}",msg)
 
 #----------------------------------------------------------
 # Main body of code
