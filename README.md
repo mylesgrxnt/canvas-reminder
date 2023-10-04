@@ -1,5 +1,6 @@
 # canvas-reminder
 Problem: Canvas sends out daily summaries for assignments and tests, usually only notifying users until after the deadlines have passed for that day.
+
 Solution: Run a Python script that emails your assignments and tests to you every day for the current day and following day using the Canvas API.
 
 SETUP INSTRUCTIONS
